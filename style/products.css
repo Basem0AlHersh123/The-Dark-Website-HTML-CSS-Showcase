@@ -1,0 +1,101 @@
+.products{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 1%;
+    /* margin: 15px; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+.products  .image img{
+    width: 250px;
+    border-radius: 15%;
+}
+.products section{
+    /* padding: 20px; */
+    flex-wrap: wrap;
+    text-align: center  ;
+    /* margin: 0 auto; */
+    height: 460px;
+    overflow: hidden;
+}
+.rocket{
+    height: 150px;
+}
+.products section:hover{
+    transition-delay: 2s;
+    overflow:auto;
+    /* margin: auto; */
+    transition-duration: 2s;
+    /* height: fit-content; */
+    height: 400px;
+    /* padding: 20px; */
+}
+.products div{
+    padding: 40px;
+    width: 70%;    
+    flex-wrap: wrap;
+
+}
+.products section p{
+    width: 200px;
+    padding: 40px;
+    margin-left: 20px;
+    background-color: beige;
+    border-radius: 30%;
+    color: black;
+}
+.products section h5{
+    padding: 20px;
+    background-image: radial-gradient(circle,blue,rgb(151, 215, 228));
+    width: 80px;
+    
+    margin: 20px auto;
+}
+.products section button{
+    padding: 20px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: aqua;
+    box-shadow: 0 0 10px #00f7ffcc, 0 0 30px #00f7ff88;
+}
+.products section button:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 12px #ff0800cc, 0 0 30px #ff5e0088;
+}
+.products section button:active{
+    background-color: yellow;
+}
+
+
+@media (max-width:360px){
+    nav {
+        margin: 0 auto;
+        width: 80px;
+        height: 70px;
+
+        overflow: hidden;
+    }
+    nav div ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }   
+    .form-tag input{
+        width: 70px;
+    }
+    nav:hover{
+        transition-duration: 3s;
+        width: 85px;
+        padding: 0 25px;
+        /* margin-right: 20px; */
+        height: 350px;
+    }
+    nav div:hover{
+        margin: 0;
+
+    }
+    .element{
+        width: 200px;
+        padding: 40px;
+    }
+}

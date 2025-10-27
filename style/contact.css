@@ -1,0 +1,85 @@
+.heading{
+            text-shadow: 1px 2px red;
+            color: aqua;
+        }
+.heading:hover{
+    text-shadow: 1px 2px blue;
+}
+th,td{
+    border-style: dashed;
+    border: 2px solid gold;
+    border-collapse: collapse;
+    /* border-spacing: 2px; */
+    padding: 5px 50px 5px 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+#logo{
+    width: 250px;
+    border-radius: 40px;
+    height: 250px;
+    outline: 2px rgb(197, 19, 19) groove;
+    box-shadow: inset;
+    margin: 10px;
+}
+#content{
+    height: 400px;
+    align-items: center;
+}
+body{
+    text-transform: capitalize;
+    background-color:rgba(0, 0, 0, 0.877);
+    text-align:center;
+    color: white;
+}
+input{
+    padding: 10px;
+    border: 2px black solid;
+    border-collapse:collapse;
+    margin:20px;
+    border-radius:20px;
+    border: none;
+}
+.main{
+    padding: 20px;
+    border-radius: 20px;
+    /* background-color: rgb(0, 255, 115); */
+    background-image: linear-gradient(rgb(6, 252, 211),rgb(255, 7, 189));
+    margin: auto;
+    color: white;
+}
+.secondary{
+    padding: 10px;
+    border-radius:10px ;
+    background-color: rgb(93, 78, 78);
+    color: white;
+    margin: 10px;
+}
+.main:hover,.main:active{
+    background-image: radial-gradient(aqua ,yellow, blue,black);
+    box-shadow: -2px  1px tomato;
+    font-weight:bolder;
+    transition-duration:1s ;
+    color: black;
+    /* background-color: azure; */
+}
+.secondary:hover{
+    transition-duration:1s;
+    transition-timing-function: linear;
+    background-image:linear-gradient(red,blue);
+    box-shadow: -2px  1px rgb(71, 172, 255);
+    font-weight: bolder;
+}
+.Entries{
+    padding: 20px;
+    border-radius: 20px;
+    background-color:rgba(212, 8, 32, 0.401);
+    width: fit-content;
+    outline: 10px groove rgb(31, 132, 226);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#textarea{
+    padding: 15px;
+    border-radius: 20px;
+}

@@ -1,0 +1,38 @@
+.content{
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-name: registration-page;
+}
+@keyframes registration-page {
+    from{
+        margin: 20% auto;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+        /* background-image: linear-gradient(blue,red 50%,black,transparent); */
+    }
+    
+    to{
+        /* animation-delay: 1s; */
+        background-image: linear-gradient(blue,red 50%,black);
+        height: fit-content;
+        width: fit-content;
+        /* overflow: visible; */
+        /* -moz-animation-play-state:paused; */
+        margin: 10px auto;
+        border: 20px ;
+        border-color:black;
+        border-style: ridge;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+}
+/* .content{
+    animation-name: colors;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: both;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+} */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/register_login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <a href="index.html">
+                <img src="images/a test.png" alt="logo" class="logo">
+            </a>
+        </div>
+        <!-- <div><img src="images/a test.png" alt="logo" class="logo"></div> -->
+        <div >
+            <ul class="items">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contact  us.html">contact us</a></li>
+                <li><a href="products.html">products </a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="login.html" >
+                <button type="submit" class="Login">Login</button>
+            </a>
+        <!-- <button type="submit" class="Login">Login</button> -->
+        </div>
+    </nav>
+    <main class="content">
+        <h1 class="heading">contact us</h1>
+        <form class="form-tag">
+            <!-- <img src="images/hacker.jpg" alt="Hacker">     -->
+            <br>
+            <label>
+                <input type="text" placeholder="Enter your name" minlength="8" maxlength="20" required>
+            </label>
+            <br>
+            <label>
+                <input type="email" placeholder="example@gmail.com"required>
+            </label>
+            <br>
+            <textarea name="emails" id="textarea" rows="5" placeholder="Enter what you want to say"></textarea>
+            <br>
+            <button type="submit" class="main">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
