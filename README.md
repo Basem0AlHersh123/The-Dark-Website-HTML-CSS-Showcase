@@ -65,17 +65,11 @@ This structure shows where all your files, including the new screenshot images, 
 ```
 
 -----
+## 📸 Screenshots
 
-## 🖼️ Screenshots
-
-The following images showcase the design and key features of the website:
-
-### 1\. Homepage
-
-### 2\. Products Page
-
-### 3\. Contact/Login Form
-
+| Homepage1 | Homepage2 | Login | products|
+|----------|-------------|-----------|-----------|
+| ![Homepage](screenshots/homepage1.png) | ![Homepage](screenshots/homepage2.png) | ![login](screenshots/login.png) | ![Products](screenshots/products.png)
 -----
 
 ## ✍️ Author
